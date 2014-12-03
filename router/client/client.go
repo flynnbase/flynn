@@ -17,7 +17,7 @@ import (
 // ErrNotFound is returned when no route was found.
 var ErrNotFound = errors.New("router: route not found")
 
-type client struct {
+type HTTPClient struct {
 	*httpclient.Client
 }
 
@@ -29,12 +29,12 @@ func New() (Client, error) {
 	return NewWithDiscoverd("", discoverd.DefaultClient), nil
 }
 
-func newRouterClient() *client {
+func newRouterClient() *HTTPClient {
 	c := &httpclient.Client{
 		ErrPrefix:   "router",
 		ErrNotFound: ErrNotFound,
 	}
-	return &client{Client: c}
+	return &HTTPClient{Client: c}
 }
 
 // NewWithAddr uses addr as the specified API url and returns a client.
@@ -88,25 +88,25 @@ func (e HTTPError) Error() string {
 	return fmt.Sprintf("router: expected http status 200, got %d", e.Response.StatusCode)
 }
 
-func (c *client) CreateRoute(r *router.Route) error {
+func (c *HTTPClient) CreateRoute(r *router.Route) error {
 	return c.Post("/routes", r, r)
 }
 
-func (c *client) SetRoute(r *router.Route) error {
+func (c *HTTPClient) SetRoute(r *router.Route) error {
 	return c.Put("/routes", r, r)
 }
 
-func (c *client) DeleteRoute(id string) error {
+func (c *HTTPClient) DeleteRoute(id string) error {
 	return c.Delete("/routes/" + id)
 }
 
-func (c *client) GetRoute(id string) (*router.Route, error) {
+func (c *HTTPClient) GetRoute(id string) (*router.Route, error) {
 	res := &router.Route{}
 	err := c.Get("/routes/"+id, res)
 	return res, err
 }
 
-func (c *client) ListRoutes(parentRef string) ([]*router.Route, error) {
+func (c *HTTPClient) ListRoutes(parentRef string) ([]*router.Route, error) {
 	path := "/routes"
 	if parentRef != "" {
 		q := make(url.Values)
