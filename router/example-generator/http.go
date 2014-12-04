@@ -6,11 +6,9 @@ import (
 	"net/http"
 	"strings"
 	"sync"
-
-	rc "github.com/flynn/flynn/router/client"
 )
 
-var client *rc.HTTPClient
+var httpClient *http.Client
 
 type request struct {
 	req     *http.Request
@@ -111,7 +109,7 @@ func compileRequest(r *request) *compiledRequest {
 }
 
 func getRequests() []*request {
-	t := client.HTTP.Transport.(*roundTripRecorder)
+	t := httpClient.Transport.(*roundTripRecorder)
 	reqs := t.requests
 	t.requests = t.requests[:0]
 	return reqs

@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -13,7 +12,7 @@ import (
 )
 
 type generator struct {
-	client *rc.HTTPClient
+	client rc.Client
 	route  *rt.Route
 }
 
@@ -25,16 +24,12 @@ type example struct {
 func main() {
 	log.SetOutput(os.Stderr)
 
-	c, err := rc.New()
+	httpClient = &http.Client{}
+	client, err := rc.NewWithHTTP(httpClient)
 	if err != nil {
 		log.Fatal(err)
 	}
-	if v, ok := c.(*rc.HTTPClient); ok {
-		client = v
-	} else {
-		log.Fatal(fmt.Errorf("Failed to initialize router client: %T is not a %T", c, &rc.HTTPClient{}))
-	}
-	client.HTTP.Transport = &roundTripRecorder{roundTripper: &http.Transport{Dial: client.Dial}}
+	httpClient.Transport = &roundTripRecorder{roundTripper: httpClient.Transport}
 
 	e := &generator{
 		client: client,
