@@ -16,11 +16,11 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	_ "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
-	da "github.com/flynn/flynn/discoverd/agent"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynnbase/go-sql"
+	_ "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynnbase/pq"
+	da "github.com/flynnbase/flynn/discoverd/agent"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 var dataDir = flag.String("data", "/data", "postgresql data directory")
