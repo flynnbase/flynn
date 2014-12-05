@@ -34,7 +34,7 @@ latest version of each imported package. This method can be slow and unreliable,
 A `.godir` file must exist in the root of the repository if you are not using
 godep. This file must contain the full package path of your application, which
 will be used to find packages and name the app binary. For example, a `.godir`
-file containing the path `github.com/flynn/flynn` with a main package in the
+file containing the path `github.com/flynnbase/flynn` with a main package in the
 root will result in a binary called `flynn`.
 
 ### Go Version

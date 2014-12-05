@@ -6,7 +6,7 @@ import (
 	"net"
 	"runtime"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
 )
 
 // Error severities

@@ -7,7 +7,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/flynn/flynn/pkg/rpcplus"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
 )
 
 type FD struct {

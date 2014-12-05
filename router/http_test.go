@@ -10,10 +10,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/net/websocket"
-	"github.com/flynn/flynn/discoverd/testutil/etcdrunner"
-	"github.com/flynn/flynn/router/types"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/net/websocket"
+	"github.com/flynnbase/flynn/discoverd/testutil/etcdrunner"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 var httpClient = &http.Client{

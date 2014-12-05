@@ -7,7 +7,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
 )
 
 func TestServer(t *testing.T) {

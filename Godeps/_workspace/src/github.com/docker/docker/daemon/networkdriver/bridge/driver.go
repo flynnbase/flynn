@@ -8,17 +8,17 @@ import (
 	"strconv"
 	"sync"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portallocator"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portmapper"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portallocator"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portmapper"
 	"github.com/docker/docker/engine"
 	"github.com/docker/docker/nat"
 	"github.com/docker/docker/pkg/iptables"
 	"github.com/docker/docker/pkg/networkfs/resolvconf"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/parsers/kernel"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/parsers/kernel"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 func main() {

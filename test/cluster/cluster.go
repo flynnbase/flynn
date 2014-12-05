@@ -14,9 +14,9 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/flynn/flynn/cli/config"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/cli/config"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 type BootConfig struct {
@@ -296,10 +296,10 @@ var flynnBuildScript = template.Must(template.New("flynn-build").Parse(`
 set -e -x
 
 export GOPATH=~/go
-flynn=$GOPATH/src/github.com/flynn/flynn
+flynn=$GOPATH/src/github.com/flynnbase/flynn
 
 if [ ! -d $flynn ]; then
-  git clone https://github.com/flynn/flynn $flynn
+  git clone https://github.com/flynnbase/flynn $flynn
 fi
 
 cd $flynn

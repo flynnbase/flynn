@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/system"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/system"
 )
 
 type CopyFlags int

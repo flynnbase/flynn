@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
 )
 
 var errNilPtr = errors.New("destination pointer is nil") // embedded in descriptive error

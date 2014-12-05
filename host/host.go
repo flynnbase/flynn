@@ -8,17 +8,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/host/cli"
-	"github.com/flynn/flynn/host/ports"
-	"github.com/flynn/flynn/host/sampi"
-	"github.com/flynn/flynn/host/types"
-	"github.com/flynn/flynn/pkg/attempt"
-	"github.com/flynn/flynn/pkg/cluster"
-	rpc "github.com/flynn/flynn/pkg/rpcplus/comborpc"
-	"github.com/flynn/flynn/pkg/shutdown"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/host/cli"
+	"github.com/flynnbase/flynn/host/ports"
+	"github.com/flynnbase/flynn/host/sampi"
+	"github.com/flynnbase/flynn/host/types"
+	"github.com/flynnbase/flynn/pkg/attempt"
+	"github.com/flynnbase/flynn/pkg/cluster"
+	rpc "github.com/flynnbase/flynn/pkg/rpcplus/comborpc"
+	"github.com/flynnbase/flynn/pkg/shutdown"
 )
 
 // Attempts is the attempt strategy that is used to connect to discoverd.

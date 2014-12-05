@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Check performs a consistency check on the database and prints any errors found.

@@ -7,8 +7,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 type EtcdClient interface {

@@ -14,7 +14,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/terminal"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/terminal"
 )
 
 type serverType func(Channel, <-chan *Request, *testing.T)

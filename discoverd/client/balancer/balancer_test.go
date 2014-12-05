@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/flynn/flynn/discoverd/agent"
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/agent"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 // implements discoverd.ServiceSet

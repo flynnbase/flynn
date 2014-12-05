@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
 )
 
 var db *sql.DB

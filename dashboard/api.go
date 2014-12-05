@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/badgerodon/ioutil"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/binding"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
-	"github.com/flynn/flynn/pkg/cors"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/badgerodon/ioutil"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/binding"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
+	"github.com/flynnbase/flynn/pkg/cors"
 )
 
 type LoginInfo struct {

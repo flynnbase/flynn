@@ -12,7 +12,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/terminal"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/terminal"
 )
 
 func ExampleNewServerConn() {

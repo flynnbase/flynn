@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/flynn/flynn/pkg/cluster"
+	"github.com/flynnbase/flynn/pkg/cluster"
 )
 
 var logs = map[string]string{

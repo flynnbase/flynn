@@ -20,11 +20,11 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
-	"github.com/flynn/flynn/test/arg"
-	"github.com/flynn/flynn/test/cluster"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/test/arg"
+	"github.com/flynnbase/flynn/test/cluster"
 )
 
 var sshWrapper = template.Must(template.New("ssh").Parse(`

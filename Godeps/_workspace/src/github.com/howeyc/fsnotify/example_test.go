@@ -7,7 +7,7 @@ package fsnotify_test
 import (
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
 )
 
 func ExampleNewWatcher() {

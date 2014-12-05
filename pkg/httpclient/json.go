@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"net/url"
 
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/pkg/rpcplus"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
 )
 
 type Client struct {

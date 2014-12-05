@@ -18,12 +18,12 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/devicemapper"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/parsers"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/units"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/devicemapper"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/parsers"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/units"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
 )
 
 var (

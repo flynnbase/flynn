@@ -8,7 +8,7 @@ import (
 	mathrand "math/rand"
 	"strings"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
 )
 
 var Math = mathrand.New(cryptorand.Source)

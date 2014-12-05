@@ -31,7 +31,7 @@ package update
 import (
 	"compress/gzip"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/bitbucket.org/kardianos/osext"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/bitbucket.org/kardianos/osext"
 	"io"
 	"io/ioutil"
 	"net/http"

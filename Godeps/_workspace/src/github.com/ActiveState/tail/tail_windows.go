@@ -3,7 +3,7 @@
 package tail
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/winfile"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/winfile"
 	"os"
 )
 

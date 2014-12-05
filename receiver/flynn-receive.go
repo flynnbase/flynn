@@ -12,12 +12,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/controller/client"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/cluster"
-	"github.com/flynn/flynn/pkg/exec"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/controller/client"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/cluster"
+	"github.com/flynnbase/flynn/pkg/exec"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 var clusterc *cluster.Client

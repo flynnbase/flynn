@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
 )
 
 func TestSource(t *testing.T) {

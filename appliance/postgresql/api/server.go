@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/postgres"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/postgres"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 var serviceName = os.Getenv("FLYNN_POSTGRES")

@@ -13,15 +13,15 @@ import (
 	"strings"
 	"time"
 
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/controller/utils"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/discoverd/client/dialer"
-	"github.com/flynn/flynn/pkg/httpclient"
-	"github.com/flynn/flynn/pkg/pinned"
-	"github.com/flynn/flynn/pkg/rpcplus"
-	"github.com/flynn/flynn/pkg/sse"
-	"github.com/flynn/flynn/router/types"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/controller/utils"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client/dialer"
+	"github.com/flynnbase/flynn/pkg/httpclient"
+	"github.com/flynnbase/flynn/pkg/pinned"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
+	"github.com/flynnbase/flynn/pkg/sse"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 // Client is a client for the controller API.

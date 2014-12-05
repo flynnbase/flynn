@@ -4,7 +4,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/flynn/flynn/pkg/iptables"
+	"github.com/flynnbase/flynn/pkg/iptables"
 )
 
 type Forwarder struct {

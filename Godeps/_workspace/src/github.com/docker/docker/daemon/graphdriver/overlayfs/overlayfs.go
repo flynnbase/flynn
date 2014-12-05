@@ -13,10 +13,10 @@ import (
 	"sync"
 	"syscall"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
 )
 
 // This is a small wrapper over the NaiveDiffWriter that lets us have a custom

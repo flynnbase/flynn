@@ -17,7 +17,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/testdata"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/testdata"
 )
 
 func rawKey(pub PublicKey) interface{} {

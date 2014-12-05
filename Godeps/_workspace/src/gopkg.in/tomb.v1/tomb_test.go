@@ -2,7 +2,7 @@ package tomb_test
 
 import (
 	"errors"
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
 	"reflect"
 	"testing"
 )

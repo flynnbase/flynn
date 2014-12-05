@@ -12,11 +12,11 @@ import (
 	"os"
 	"time"
 
-	cc "github.com/flynn/flynn/controller/client"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/resource"
-	"github.com/flynn/flynn/router/types"
+	cc "github.com/flynnbase/flynn/controller/client"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/resource"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 type generator struct {

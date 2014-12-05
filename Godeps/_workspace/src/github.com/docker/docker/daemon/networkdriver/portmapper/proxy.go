@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/proxy"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/reexec"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/reexec"
 )
 
 const userlandProxyCommandName = "docker-proxy"

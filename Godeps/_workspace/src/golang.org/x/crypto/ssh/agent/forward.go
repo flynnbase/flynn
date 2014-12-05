@@ -10,7 +10,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
 )
 
 // RequestAgentForwarding sets up agent forwarding for the session.

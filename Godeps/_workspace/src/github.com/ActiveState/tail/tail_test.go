@@ -8,7 +8,7 @@ package tail
 import (
 	"./watch"
 	_ "fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/ratelimiter"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/ratelimiter"
 	"io/ioutil"
 	"os"
 	"strings"

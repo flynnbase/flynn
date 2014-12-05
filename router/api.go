@@ -9,10 +9,10 @@ import (
 	"sort"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/binding"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/binding"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 func apiHandler(rtr *Router) http.Handler {

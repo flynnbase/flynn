@@ -79,7 +79,7 @@ usermod --home $HOME nobody
 export REQUEST_ID="flynn-build"
 export STACK=cedar-14
 
-# Fix for https://github.com/flynn/flynn/issues/85
+# Fix for https://github.com/flynnbase/flynn/issues/85
 export CURL_CONNECT_TIMEOUT=30
 
 ## Buildpack detection

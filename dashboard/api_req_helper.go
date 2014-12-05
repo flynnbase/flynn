@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/gorilla/sessions"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/gorilla/sessions"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/martini-contrib/render"
 )
 
 type RequestHelper interface {

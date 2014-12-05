@@ -6,8 +6,8 @@ import (
 	"net"
 	"sync"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver"
 )
 
 // allocatedMap is thread-unsafe set of allocated IP

@@ -3,10 +3,10 @@ package main
 import (
 	"net/http/httptest"
 
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/discoverd/testutil/etcdrunner"
-	"github.com/flynn/flynn/router/client"
-	"github.com/flynn/flynn/router/types"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/discoverd/testutil/etcdrunner"
+	"github.com/flynnbase/flynn/router/client"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 func newTestAPIServer(t etcdrunner.TestingT) *testAPIServer {

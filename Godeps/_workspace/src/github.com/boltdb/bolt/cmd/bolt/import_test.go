@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt/cmd/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt/cmd/bolt"
 )
 
 // Ensure that a database can be imported.

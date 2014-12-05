@@ -6,7 +6,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 const service = "echo-service"

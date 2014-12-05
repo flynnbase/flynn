@@ -3,7 +3,7 @@ package bootstrap
 import (
 	"fmt"
 
-	"github.com/flynn/flynn/pkg/certgen"
+	"github.com/flynnbase/flynn/pkg/certgen"
 )
 
 type GenTLSCertAction struct {

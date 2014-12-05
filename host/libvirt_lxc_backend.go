@@ -19,21 +19,21 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/alexzorin/libvirt-go"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/term"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
-	"github.com/flynn/flynn/host/containerinit"
-	lt "github.com/flynn/flynn/host/libvirt"
-	"github.com/flynn/flynn/host/logbuf"
-	"github.com/flynn/flynn/host/ports"
-	"github.com/flynn/flynn/host/types"
-	"github.com/flynn/flynn/pinkerton"
-	"github.com/flynn/flynn/pkg/cluster"
-	"github.com/flynn/flynn/pkg/iptables"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/alexzorin/libvirt-go"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/term"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
+	"github.com/flynnbase/flynn/host/containerinit"
+	lt "github.com/flynnbase/flynn/host/libvirt"
+	"github.com/flynnbase/flynn/host/logbuf"
+	"github.com/flynnbase/flynn/host/ports"
+	"github.com/flynnbase/flynn/host/types"
+	"github.com/flynnbase/flynn/pinkerton"
+	"github.com/flynnbase/flynn/pkg/cluster"
+	"github.com/flynnbase/flynn/pkg/iptables"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 const (
@@ -86,7 +86,7 @@ func NewLibvirtLXCBackend(state *State, portAlloc map[string]*ports.Allocator, v
 		}
 	}
 	// We need to explicitly assign the MAC address to avoid it changing to a lower value
-	// See: https://github.com/flynn/flynn/issues/223
+	// See: https://github.com/flynnbase/flynn/issues/223
 	bridge, err := net.InterfaceByName(bridgeName)
 	if err != nil {
 		return nil, err

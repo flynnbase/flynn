@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
 )
 
 type FsMagic uint64

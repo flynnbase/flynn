@@ -10,8 +10,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
-	"github.com/flynn/flynn/pinkerton/registry"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
+	"github.com/flynnbase/flynn/pinkerton/registry"
 )
 
 type Store struct {

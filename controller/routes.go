@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	ct "github.com/flynn/flynn/controller/types"
-	routerc "github.com/flynn/flynn/router/client"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	ct "github.com/flynnbase/flynn/controller/types"
+	routerc "github.com/flynnbase/flynn/router/client"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 func createRoute(app *ct.App, router routerc.Client, route router.Route, r ResponseHelper) {

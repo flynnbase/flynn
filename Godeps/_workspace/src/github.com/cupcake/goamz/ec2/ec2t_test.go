@@ -7,9 +7,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2/ec2test"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2/ec2test"
 	"github.com/cupcake/goamz/testutil"
 	. "launchpad.net/gocheck"
 )

@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 )
 
 // Trap sets up a simplified signal "trap", appropriate for common

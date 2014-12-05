@@ -11,14 +11,14 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	_ "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	tu "github.com/flynn/flynn/controller/testutils"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/pkg/random"
-	"github.com/flynn/flynn/pkg/rpcplus"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	_ "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	tu "github.com/flynnbase/flynn/controller/testutils"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/pkg/random"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
 )
 
 // Hook gocheck up to the "go test" runner

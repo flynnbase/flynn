@@ -8,10 +8,10 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/units"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/host/types"
-	"github.com/flynn/flynn/pkg/cluster"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/units"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/host/types"
+	"github.com/flynnbase/flynn/pkg/cluster"
 )
 
 func init() {

@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
-	"github.com/flynn/flynn/host/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/technoweenie/grohl"
+	"github.com/flynnbase/flynn/host/types"
 )
 
 type attachHandler struct {

@@ -26,7 +26,7 @@ install them by following the directions on their respective web sites.
 Clone the Flynn source code locally:
 
 ```
-$ git clone https://github.com/flynn/flynn.git
+$ git clone https://github.com/flynnbase/flynn.git
 ```
 
 Then, inside the `flynn` directory, bring up the VM:
@@ -55,11 +55,11 @@ will be visible inside the VM.
 
 Since Flynn is primarily written in Go, the source code needs to be inside a valid Go workspace.
 The development VM has a `GOPATH` of `$HOME/go` and the Flynn source code is symlinked from
-`/vagrant` to `$GOPATH/src/github.com/flynn/flynn`.
+`/vagrant` to `$GOPATH/src/github.com/flynnbase/flynn`.
 
 If you don't have a specific issue you are trying to fix, but are interested in contributing
 to the project, you should start by looking at GitHub issues labelled
-[easy](https://github.com/flynn/flynn/labels/easy).
+[easy](https://github.com/flynnbase/flynn/labels/easy).
 
 ## Building Flynn
 
@@ -104,7 +104,7 @@ See `script/bootstrap-flynn -h` for a full list of supported options.
 
 Once Flynn is running, you can add the cluster to the `flynn` CLI tool using the
 bootstrap output, and then try out your changes (e.g. by following [this guide]
-(https://github.com/flynn/flynn#trying-it-out)).
+(https://github.com/flynnbase/flynn#trying-it-out)).
 
 ## Debugging
 

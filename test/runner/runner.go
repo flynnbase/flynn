@@ -19,15 +19,15 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
-	"github.com/flynn/flynn/pkg/attempt"
-	"github.com/flynn/flynn/pkg/random"
-	"github.com/flynn/flynn/pkg/shutdown"
-	"github.com/flynn/flynn/test/arg"
-	"github.com/flynn/flynn/test/cluster"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
+	"github.com/flynnbase/flynn/pkg/attempt"
+	"github.com/flynnbase/flynn/pkg/random"
+	"github.com/flynnbase/flynn/pkg/shutdown"
+	"github.com/flynnbase/flynn/test/arg"
+	"github.com/flynnbase/flynn/test/cluster"
 )
 
 var logBucket = "flynn-ci-logs"
@@ -190,7 +190,7 @@ cat > ~/.flynnrc
 git config --global user.email "ci@flynn.io"
 git config --global user.name "CI"
 
-cd ~/go/src/github.com/flynn/flynn/test
+cd ~/go/src/github.com/flynnbase/flynn/test
 
 cmd="bin/flynn-test \
   --flynnrc $HOME/.flynnrc \

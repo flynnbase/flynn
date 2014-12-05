@@ -1,8 +1,8 @@
 package s3_test
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
 	. "launchpad.net/gocheck"
 )
 

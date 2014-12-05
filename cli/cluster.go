@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	cfg "github.com/flynn/flynn/cli/config"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	cfg "github.com/flynnbase/flynn/cli/config"
 )
 
 func init() {

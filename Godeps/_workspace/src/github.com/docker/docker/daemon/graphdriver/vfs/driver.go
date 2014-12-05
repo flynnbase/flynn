@@ -7,9 +7,9 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/chrootarchive"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/graphdriver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/chrootarchive"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/label"
 )
 
 func init() {

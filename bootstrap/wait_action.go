@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/discoverd/client/dialer"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client/dialer"
 )
 
 type WaitAction struct {

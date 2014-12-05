@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
 )
 
 // We count the number of suites run at least to get a vague hint that the

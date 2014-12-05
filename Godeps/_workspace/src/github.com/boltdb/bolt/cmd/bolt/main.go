@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
 	"github.com/codegangsta/cli"
 	// "github.com/davecheney/profile"
 )

@@ -3,7 +3,7 @@
 package mgo
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/sasl"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/sasl"
 )
 
 func saslNew(cred Credential, host string) (saslStepper, error) {

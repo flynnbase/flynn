@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
 )
 
 var (

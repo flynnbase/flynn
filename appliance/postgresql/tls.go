@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/flynn/flynn/pkg/certgen"
+	"github.com/flynnbase/flynn/pkg/certgen"
 )
 
 func writeCert(externalIP, dir string) error {

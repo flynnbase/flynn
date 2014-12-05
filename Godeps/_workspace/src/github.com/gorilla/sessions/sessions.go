@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/gorilla/context"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/gorilla/context"
 )
 
 // Default flashes key.

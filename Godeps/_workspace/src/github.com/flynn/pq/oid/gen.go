@@ -10,8 +10,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	_ "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	_ "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq"
 )
 
 func main() {

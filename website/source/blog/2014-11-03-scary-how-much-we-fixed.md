@@ -23,15 +23,15 @@ We've launched a series of **Language Guides** to help you deploy your favorite 
 
 ### Notable Enhancements
 
-* **We've added support for [releasing custom builds](https://github.com/flynn/flynn/pull/382)**. This allows you to customize Flynn and test it out on your servers without merging your changes upstream first. We've expanded our [Development Documentation](https://flynn.io/docs/development#releasing-flynn) to walk you through these improvements.
-* **We [re-wrote the log handler](https://github.com/flynn/flynn/pull/163)** to improve reliability.
+* **We've added support for [releasing custom builds](https://github.com/flynnbase/flynn/pull/382)**. This allows you to customize Flynn and test it out on your servers without merging your changes upstream first. We've expanded our [Development Documentation](https://flynn.io/docs/development#releasing-flynn) to walk you through these improvements.
+* **We [re-wrote the log handler](https://github.com/flynnbase/flynn/pull/163)** to improve reliability.
 * **We updated to Go 1.4beta1** to improve reliability and security. This may also improve performance as development continues.
  
 ### Major Bugs Fixed
 
-* Fixed PHP support ([#360](https://github.com/flynn/flynn/pull/360))
-* Fixed log decoding crash ([#92](https://github.com/flynn/flynn/issues/92))
-* Fixed build dependency tracking ([#374](https://github.com/flynn/flynn/pull/374))
+* Fixed PHP support ([#360](https://github.com/flynnbase/flynn/pull/360))
+* Fixed log decoding crash ([#92](https://github.com/flynnbase/flynn/issues/92))
+* Fixed build dependency tracking ([#374](https://github.com/flynnbase/flynn/pull/374))
 
 ## What's Next
 
@@ -39,7 +39,7 @@ Flynn is moving towards production stability at a consistent pace. We continue t
 
 ## Stay in Touch
 
-* Star us on [GitHub](https://github.com/flynn/flynn)
+* Star us on [GitHub](https://github.com/flynnbase/flynn)
 * Join us on the [#flynn channel](http://webchat.freenode.net?channels=%23flynn) at Freenode
-* Help solve an [easy issue](https://github.com/flynn/flynn/labels/easy)
+* Help solve an [easy issue](https://github.com/flynnbase/flynn/labels/easy)
 * [Email us](mailto:contact@flynn.io) whatever is on your mind!

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/flynn/flynn/host/types"
-	"github.com/flynn/flynn/pkg/rpcplus"
+	"github.com/flynnbase/flynn/host/types"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
 )
 
 type Cluster struct {

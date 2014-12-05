@@ -5,7 +5,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
 	"os"
 )
 

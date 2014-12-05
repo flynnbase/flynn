@@ -3,8 +3,8 @@
 package watch
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/util"
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/util"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
 	"os"
 	"time"
 )

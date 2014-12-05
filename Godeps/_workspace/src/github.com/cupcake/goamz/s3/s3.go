@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
 	"io"
 	"io/ioutil"
 	"log"

@@ -3,7 +3,7 @@
 package watch
 
 import (
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
 	"log"
 	"sync"
 )

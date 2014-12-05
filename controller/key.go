@@ -6,10 +6,10 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
-	ct "github.com/flynn/flynn/controller/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	ct "github.com/flynnbase/flynn/controller/types"
 )
 
 type KeyRepo struct {

@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 type ReleaseRepo struct {

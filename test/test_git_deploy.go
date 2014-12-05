@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"time"
 
-	c "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/pkg/attempt"
+	c "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/pkg/attempt"
 )
 
 type GitDeploySuite struct {

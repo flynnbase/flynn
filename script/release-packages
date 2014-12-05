@@ -96,12 +96,12 @@ main() {
   info "using base dir: ${dir}"
 
   export GOPATH="${dir}"
-  local src="${GOPATH}/src/github.com/flynn/flynn"
+  local src="${GOPATH}/src/github.com/flynnbase/flynn"
 
   if [[ ! -d "${src}/.git" ]]; then
     info "cloning git repo"
     rm -rf "${src}"
-    git clone --quiet https://github.com/flynn/flynn "${src}"
+    git clone --quiet https://github.com/flynnbase/flynn "${src}"
   fi
 
   info "downloading apt repo"

@@ -37,9 +37,9 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2"
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 )
 
 func (s *S) TestRunString(c *C) {

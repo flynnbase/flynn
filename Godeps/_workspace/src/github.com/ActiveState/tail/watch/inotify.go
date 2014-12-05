@@ -4,9 +4,9 @@ package watch
 
 import (
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/util"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail/util"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/howeyc/fsnotify"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/tomb.v1"
 	"os"
 	"path/filepath"
 )

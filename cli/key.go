@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/controller/client"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/controller/client"
 )
 
 func init() {

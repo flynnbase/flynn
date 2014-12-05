@@ -9,9 +9,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/controller/client"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/controller/client"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 func init() {

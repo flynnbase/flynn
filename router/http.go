@@ -19,11 +19,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/kavu/go_reuseport"
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/nacl/secretbox"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/random"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/kavu/go_reuseport"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/nacl/secretbox"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/random"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 type HTTPListener struct {

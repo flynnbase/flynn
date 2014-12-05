@@ -22,7 +22,7 @@ The first beta release includes:
 
 This release also ships as a single repo for the first time. Components are
 still modular, but everything is located at
-[github.com/flynn/flynn](https://github.com/flynn/flynn).
+[github.com/flynnbase/flynn](https://github.com/flynnbase/flynn).
 
 Now is an excellent time to set up a Flynn cluster for development, testing, and
 staging environments. We need your help to find bugs and discover edge cases so

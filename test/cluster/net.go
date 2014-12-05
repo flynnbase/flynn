@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
-	"github.com/flynn/flynn/pkg/iptables"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/ipallocator"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
+	"github.com/flynnbase/flynn/pkg/iptables"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 type Bridge struct {

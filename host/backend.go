@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/flynn/flynn/host/types"
+	"github.com/flynnbase/flynn/host/types"
 )
 
 type AttachRequest struct {

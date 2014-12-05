@@ -4,7 +4,7 @@ import (
 	"crypto/hmac"
 	"crypto/sha1"
 	"encoding/base64"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/aws"
 	"log"
 	"sort"
 	"strings"

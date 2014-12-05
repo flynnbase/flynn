@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 type services struct {

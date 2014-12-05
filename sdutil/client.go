@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 type clientCmd struct {

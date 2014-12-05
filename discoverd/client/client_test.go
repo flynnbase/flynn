@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flynn/flynn/discoverd/agent"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/discoverd/testutil"
-	"github.com/flynn/flynn/discoverd/testutil/etcdrunner"
+	"github.com/flynnbase/flynn/discoverd/agent"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/testutil"
+	"github.com/flynnbase/flynn/discoverd/testutil/etcdrunner"
 )
 
 func ExampleRegisterAndStandby_standby() {

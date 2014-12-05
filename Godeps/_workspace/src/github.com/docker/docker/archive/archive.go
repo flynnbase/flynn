@@ -16,11 +16,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/vendor/src/code.google.com/p/go/src/pkg/archive/tar"
 
 	"github.com/docker/docker/pkg/log"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/system"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/utils"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/system"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/utils"
 )
 
 type (

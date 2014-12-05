@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/codegangsta/inject"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/codegangsta/inject"
 )
 
 const (

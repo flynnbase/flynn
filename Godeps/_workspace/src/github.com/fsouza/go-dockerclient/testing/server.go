@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
 	"github.com/gorilla/mux"
 	mathrand "math/rand"
 	"net"

@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
 )
 
 // Agent represents the capabilities of an ssh-agent.

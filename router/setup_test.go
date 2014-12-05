@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/discoverd/agent"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/discoverd/testutil"
-	"github.com/flynn/flynn/discoverd/testutil/etcdrunner"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/coreos/go-etcd/etcd"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/discoverd/agent"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/testutil"
+	"github.com/flynnbase/flynn/discoverd/testutil/etcdrunner"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 var fake = flag.Bool("fake", true, "stub out discoverd/etcd")

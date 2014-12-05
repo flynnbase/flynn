@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/BurntSushi/toml"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/BurntSushi/toml"
 )
 
 type Cluster struct {

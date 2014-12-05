@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/pinkerton"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/pinkerton"
 )
 
 func main() {

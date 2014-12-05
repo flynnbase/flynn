@@ -6,15 +6,15 @@ import (
 	"net/http"
 	"time"
 
-	c "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	"github.com/flynn/flynn/discoverd/client"
+	c "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 type BlobstoreSuite struct{}
 
 var _ = c.Suite(&BlobstoreSuite{})
 
-// Transfer >512MB data to avoid regressing on https://github.com/flynn/flynn/issues/101
+// Transfer >512MB data to avoid regressing on https://github.com/flynnbase/flynn/issues/101
 func (b *BlobstoreSuite) TestLargeAmountOfData(t *c.C) {
 	disc, err := discoverd.NewClientWithAddr(routerIP + ":1111")
 	t.Assert(err, c.IsNil)

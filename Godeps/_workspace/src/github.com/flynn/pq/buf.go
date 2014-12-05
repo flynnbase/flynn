@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
 )
 
 type readBuf []byte

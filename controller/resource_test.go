@@ -8,12 +8,12 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	. "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/discoverd/agent"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/pkg/random"
-	"github.com/flynn/flynn/pkg/resource"
+	. "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-check"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/discoverd/agent"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/pkg/random"
+	"github.com/flynnbase/flynn/pkg/resource"
 )
 
 type fakeServiceSet struct {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Import converts an exported database dump into a new database.

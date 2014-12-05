@@ -5,13 +5,13 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq/hstore"
-	"github.com/flynn/flynn/controller/name"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/pkg/random"
-	routerc "github.com/flynn/flynn/router/client"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq/hstore"
+	"github.com/flynnbase/flynn/controller/name"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/pkg/random"
+	routerc "github.com/flynnbase/flynn/router/client"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 type AppRepo struct {

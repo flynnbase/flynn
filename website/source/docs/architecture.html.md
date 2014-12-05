@@ -109,7 +109,7 @@ Mesos and Google Omega. While Mesos provided a better understanding of
 scheduling as a framework, it seemed that Omega showed that you can achieve
 scheduling in a simpler way using existing infrastructure, at least at our
 target scale. So for simplicity, we have written our own [scheduling
-framework](https://github.com/flynn/flynn/tree/master/host/sampi) that is
+framework](https://github.com/flynnbase/flynn/tree/master/host/sampi) that is
 loosely based on the concepts of Omega.
 
 Out of the box, Flynn comes with schedulers for different purposes that can
@@ -140,7 +140,7 @@ various additions to DNS. However, most internal systems use a simpler, more
 reliable, centralized approach, such as using ZooKeeper.
 
 Flynn has [implemented service
-discovery](https://github.com/flynn/flynn/tree/master/discoverd) as an API
+discovery](https://github.com/flynnbase/flynn/tree/master/discoverd) as an API
 implemented in a library that can be backed by ZooKeeper, mDNS, or in our case
 etcd. It lets cooperating services announce themselves and ask for services
 they're interested in, getting callbacks when their service list is updated. It
@@ -195,7 +195,7 @@ everything else, so there is no "layer 2".
 #### Management API / client
 
 The core of Layer 1 is the
-[controller](https://github.com/flynn/flynn/tree/master/controller) which
+[controller](https://github.com/flynnbase/flynn/tree/master/controller) which
 provides a HTTP API and scheduler that model the concept of applications. There
 are a few top-level concepts that come together to form a running application.
 

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	cc "github.com/flynn/flynn/controller/client"
+	cc "github.com/flynnbase/flynn/controller/client"
 )
 
 var client *cc.Client

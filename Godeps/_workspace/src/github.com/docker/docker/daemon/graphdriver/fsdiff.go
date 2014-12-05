@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"time"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/chrootarchive"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/ioutils"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/utils"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/archive"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/chrootarchive"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/ioutils"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/utils"
 )
 
 // naiveDiffDriver takes a ProtoDriver and adds the

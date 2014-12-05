@@ -7,7 +7,7 @@ We're starting to report regularly on changes and new features in Flynn.
 
 Flynn is a big project that spans a wide section of technology which makes it hard to tell what's new when you visit the website or GitHub repo. Posts like this will condense the most recent news so you can see what's happening without diving deep into the code.
 
-If you have questions, suggestions, or other issues that aren't addressed here, we want to know about them! Please share through [IRC](irc://irc.freenode.net/flynn), [GitHub](https://github.com/flynn/flynn), or [email](mailto:contact@flynn.io).
+If you have questions, suggestions, or other issues that aren't addressed here, we want to know about them! Please share through [IRC](irc://irc.freenode.net/flynn), [GitHub](https://github.com/flynnbase/flynn), or [email](mailto:contact@flynn.io).
 
 ## Summary
 
@@ -26,21 +26,21 @@ Our focus continues to be stability for core features (rather than adding new on
 
 ### Notable Enhancements
 
- - Add subcommands to the `flynn-host` binary ([#181](https://github.com/flynn/flynn/pull/181))
- - Add utility for uploading debug info ([#233](https://github.com/flynn/flynn/pull/233))
- - Add `app delete` command to CLI ([#214](https://github.com/flynn/flynn/pull/214))
- - Allow overriding entrypoint in `flynn run` ([#193](https://github.com/flynn/flynn/pull/193))
- - Scale apps to web=1 on first push ([#208](https://github.com/flynn/flynn/pull/208))
- - Add support for wildcard routes ([#281](https://github.com/flynn/flynn/pull/281))
+ - Add subcommands to the `flynn-host` binary ([#181](https://github.com/flynnbase/flynn/pull/181))
+ - Add utility for uploading debug info ([#233](https://github.com/flynnbase/flynn/pull/233))
+ - Add `app delete` command to CLI ([#214](https://github.com/flynnbase/flynn/pull/214))
+ - Allow overriding entrypoint in `flynn run` ([#193](https://github.com/flynnbase/flynn/pull/193))
+ - Scale apps to web=1 on first push ([#208](https://github.com/flynnbase/flynn/pull/208))
+ - Add support for wildcard routes ([#281](https://github.com/flynnbase/flynn/pull/281))
 
 ### Major Bugs Fixed
 
- - Blobstore transaction status idle ([#101](https://github.com/flynn/flynn/issues/101))
- - Various etcd usage issues ([#39](https://github.com/flynn/flynn/issues/39), [#48](https://github.com/flynn/flynn/issues/48), [#76](https://github.com/flynn/flynn/issues/76), [#187](https://github.com/flynn/flynn/issues/187))
+ - Blobstore transaction status idle ([#101](https://github.com/flynnbase/flynn/issues/101))
+ - Various etcd usage issues ([#39](https://github.com/flynnbase/flynn/issues/39), [#48](https://github.com/flynnbase/flynn/issues/48), [#76](https://github.com/flynnbase/flynn/issues/76), [#187](https://github.com/flynnbase/flynn/issues/187))
 
 ### Summary
 
-We've closed [over 280 issues and pull requests](https://github.com/flynn/flynn/issues?q=sort%3Aupdated-desc+closed%3A%3C2014-10-24+closed%3A%3E2014-08-13) and made [over 440 commits](https://github.com/flynn/flynn/compare/409d0051...bcda6fbb) since the beta release.
+We've closed [over 280 issues and pull requests](https://github.com/flynnbase/flynn/issues?q=sort%3Aupdated-desc+closed%3A%3C2014-10-24+closed%3A%3E2014-08-13) and made [over 440 commits](https://github.com/flynnbase/flynn/compare/409d0051...bcda6fbb) since the beta release.
 
 ## What's Next
 

@@ -109,7 +109,7 @@ libraries that are useful when compiling Ruby native extensions, for example:
 * `libxml2-dev`
 * `libxslt-dev`
 
-*For a full list, see the [base image Dockerfile](https://github.com/flynn/flynn/blob/master/util/cedarish/Dockerfile).*
+*For a full list, see the [base image Dockerfile](https://github.com/flynnbase/flynn/blob/master/util/cedarish/Dockerfile).*
 
 ## Process Types
 

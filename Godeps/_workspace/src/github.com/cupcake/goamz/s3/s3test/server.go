@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"encoding/xml"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
 	"io"
 	"io/ioutil"
 	"log"

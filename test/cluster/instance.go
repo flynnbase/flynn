@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
-	"github.com/flynn/flynn/pkg/attempt"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/pkg/attempt"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 func NewVMManager(bridge *Bridge) *VMManager {

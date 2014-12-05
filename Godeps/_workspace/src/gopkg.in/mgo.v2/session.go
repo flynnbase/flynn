@@ -41,7 +41,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/gopkg.in/mgo.v2/bson"
 )
 
 type mode int

@@ -14,7 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 type configFile struct {

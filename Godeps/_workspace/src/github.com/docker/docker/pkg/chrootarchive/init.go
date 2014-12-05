@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/reexec"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/reexec"
 )
 
 func init() {

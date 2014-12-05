@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql/driver"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
 )
 
 func encode(parameterStatus *parameterStatus, x interface{}, pgtypOid oid.Oid) []byte {

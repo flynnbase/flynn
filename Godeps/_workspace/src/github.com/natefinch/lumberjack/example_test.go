@@ -3,7 +3,7 @@ package lumberjack_test
 import (
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
 )
 
 // To use lumberjack with the standard library's log package, just pass it into

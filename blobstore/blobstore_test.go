@@ -11,9 +11,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	_ "github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	_ "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 func TestOSFilesystem(t *testing.T) {

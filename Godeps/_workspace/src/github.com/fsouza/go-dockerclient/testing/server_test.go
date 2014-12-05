@@ -7,7 +7,7 @@ package testing
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
 	"math/rand"
 	"net"
 	"net/http"

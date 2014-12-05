@@ -33,7 +33,7 @@ L=/usr/local/bin/flynn && curl -sL -A "`uname -sp`" https://cli.flynn.io/flynn.g
 Clone the Flynn git repository:
 
 ```
-$ git clone https://github.com/flynn/flynn
+$ git clone https://github.com/flynnbase/flynn
 ```
 
 Change to the `demo` directory and bring up the Vagrant box:

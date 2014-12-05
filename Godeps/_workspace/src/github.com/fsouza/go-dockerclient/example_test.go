@@ -8,7 +8,7 @@ import (
 	"archive/tar"
 	"bytes"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/fsouza/go-dockerclient"
 	"io"
 	"log"
 	"time"

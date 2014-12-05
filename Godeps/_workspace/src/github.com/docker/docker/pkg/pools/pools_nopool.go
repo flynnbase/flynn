@@ -6,7 +6,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/ioutils"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/ioutils"
 )
 
 var (

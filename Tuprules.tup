@@ -4,7 +4,7 @@ export GIT_BRANCH
 export GIT_TAG
 export GIT_DIRTY
 
-VPKG = github.com/flynn/flynn/pkg/version
+VPKG = github.com/flynnbase/flynn/pkg/version
 ROOT = $(TUP_CWD)
 
 !go = |> ^c go build %o^ go build -o %o -ldflags="-X $(VPKG).commit $GIT_COMMIT -X $(VPKG).branch $GIT_BRANCH -X $(VPKG).tag $GIT_TAG -X $(VPKG).dirty $GIT_DIRTY" |>

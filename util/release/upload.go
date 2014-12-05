@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
-	"github.com/flynn/flynn/pkg/cliutil"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/pkg/cliutil"
 )
 
 var defaultRegistry = "registry.hub.docker.com"

@@ -31,12 +31,12 @@ import (
 	"syscall"
 	"time"
 
-	sigutil "github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/signal"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/user"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/kr/pty"
-	"github.com/flynn/flynn/pkg/rpcplus"
-	"github.com/flynn/flynn/pkg/rpcplus/fdrpc"
+	sigutil "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/pkg/signal"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/netlink"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/libcontainer/user"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/kr/pty"
+	"github.com/flynnbase/flynn/pkg/rpcplus"
+	"github.com/flynnbase/flynn/pkg/rpcplus/fdrpc"
 )
 
 type ContainerInitArgs struct {

@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"syscall"
 
-	log "github.com/flynn/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
+	log "github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/Sirupsen/logrus"
 )
 
 type DevmapperLogger interface {

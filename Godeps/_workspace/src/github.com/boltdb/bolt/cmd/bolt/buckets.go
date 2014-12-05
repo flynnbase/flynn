@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Buckets prints a list of all buckets.

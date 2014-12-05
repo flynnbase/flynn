@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
 )
 
 type Greeting struct {

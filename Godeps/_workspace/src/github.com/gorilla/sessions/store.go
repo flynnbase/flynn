@@ -12,7 +12,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/gorilla/securecookie"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/gorilla/securecookie"
 )
 
 // Store is an interface for custom session stores.

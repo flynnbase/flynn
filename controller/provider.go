@@ -3,8 +3,8 @@ package main
 import (
 	"errors"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	ct "github.com/flynn/flynn/controller/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	ct "github.com/flynnbase/flynn/controller/types"
 )
 
 type ProviderRepo struct {

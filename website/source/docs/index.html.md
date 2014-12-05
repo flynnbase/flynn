@@ -30,7 +30,7 @@ Flynn components are divided into two _layers_.
 **Layer 0** is a low-level resource framework inspired by the [Google
 Omega](http://eurosys2013.tudos.org/wp-content/uploads/2013/paper/Schwarzkopf.pdf)
 paper. Layer 0 also includes [service
-discovery](https://github.com/flynn/flynn/tree/master/discoverd).
+discovery](https://github.com/flynnbase/flynn/tree/master/discoverd).
 
 **Layer 1** is a set of higher level components that makes it easy to deploy and
 maintain applications and databases.
@@ -49,8 +49,8 @@ We built a [tool](https://dashboard.flynn.io) for launching Flynn clusters on yo
 Amazon Web Services account [here](https://dashboard.flynn.io).
 
 You can also download a [demo
-environment](https://github.com/flynn/flynn/tree/master/demo) for your local
-machine or [look at the source on GitHub](https://github.com/flynn/flynn).
+environment](https://github.com/flynnbase/flynn/tree/master/demo) for your local
+machine or [look at the source on GitHub](https://github.com/flynnbase/flynn).
 
 ## How to use this document
 

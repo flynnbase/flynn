@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/BurntSushi/toml"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/BurntSushi/toml"
 )
 
 func init() {

@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/flynn/flynn/host/types"
+	"github.com/flynnbase/flynn/host/types"
 )
 
 func TestStateHostID(t *testing.T) {

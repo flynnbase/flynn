@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/agent"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/crypto/ssh/agent"
 )
 
 func TestAgentForward(t *testing.T) {

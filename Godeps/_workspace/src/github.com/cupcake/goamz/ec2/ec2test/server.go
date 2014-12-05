@@ -8,7 +8,7 @@ import (
 	"encoding/base64"
 	"encoding/xml"
 	"fmt"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/ec2"
 	"io"
 	"net"
 	"net/http"

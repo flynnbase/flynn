@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/golang.org/x/net/websocket"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/golang.org/x/net/websocket"
 )
 
 // This example demonstrates a trivial client.

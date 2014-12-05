@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/discoverd/client/dialer"
-	"github.com/flynn/flynn/pkg/httpclient"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/discoverd/client/dialer"
+	"github.com/flynnbase/flynn/pkg/httpclient"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 // ErrNotFound is returned when no route was found.

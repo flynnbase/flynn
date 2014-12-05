@@ -3,8 +3,8 @@ package bootstrap
 import (
 	"fmt"
 
-	"github.com/flynn/flynn/host/types"
-	"github.com/flynn/flynn/pkg/cluster"
+	"github.com/flynnbase/flynn/host/types"
+	"github.com/flynnbase/flynn/pkg/cluster"
 )
 
 type RunJobAction struct {

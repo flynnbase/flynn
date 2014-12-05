@@ -11,17 +11,17 @@ The user experience on [Flynn CI](https://ci.flynn.io/) continues to be refined 
 
 ### Enhancements
 
-- Integration tests are now run concurrently, improving speed by 50%! The average duration is now 7m30s. ([#513](https://github.com/flynn/flynn/pull/513))
-- Image unpacking is now done in a chroot, fixing several security issues. ([#519](https://github.com/flynn/flynn/pull/519))
-- `flynn scale` displays scaling events. ([#520](https://github.com/flynn/flynn/pull/520))
-- [Flynn CI](https://ci.flynn.io/) streams test logs while building. ([#525](https://github.com/flynn/flynn/pull/525))
-- Added many integration tests to cover all of the CLI features. ([#501](https://github.com/flynn/flynn/pull/501))
+- Integration tests are now run concurrently, improving speed by 50%! The average duration is now 7m30s. ([#513](https://github.com/flynnbase/flynn/pull/513))
+- Image unpacking is now done in a chroot, fixing several security issues. ([#519](https://github.com/flynnbase/flynn/pull/519))
+- `flynn scale` displays scaling events. ([#520](https://github.com/flynnbase/flynn/pull/520))
+- [Flynn CI](https://ci.flynn.io/) streams test logs while building. ([#525](https://github.com/flynnbase/flynn/pull/525))
+- Added many integration tests to cover all of the CLI features. ([#501](https://github.com/flynnbase/flynn/pull/501))
 
 ### Bugfixes
 
-- The default IP address is now parsed correctly. ([#508](https://github.com/flynn/flynn/pull/508))
-- Private downloads from Docker Hub are authenticated correctly. ([#511](https://github.com/flynn/flynn/pull/511))
-- Fixed a race in TCP route setup. ([#522](https://github.com/flynn/flynn/pull/522))
+- The default IP address is now parsed correctly. ([#508](https://github.com/flynnbase/flynn/pull/508))
+- Private downloads from Docker Hub are authenticated correctly. ([#511](https://github.com/flynnbase/flynn/pull/511))
+- Fixed a race in TCP route setup. ([#522](https://github.com/flynnbase/flynn/pull/522))
 
 ## What's Next
 
@@ -29,7 +29,7 @@ We are focused on improving our test suite, documentation, and stability.
 
 ## Stay in Touch
 
-* Star us on [GitHub](https://github.com/flynn/flynn)
+* Star us on [GitHub](https://github.com/flynnbase/flynn)
 * Join us on the [#flynn channel](http://webchat.freenode.net?channels=%23flynn) at Freenode
-* Help solve an [easy issue](https://github.com/flynn/flynn/labels/easy)
+* Help solve an [easy issue](https://github.com/flynnbase/flynn/labels/easy)
 * [Email us](mailto:contact@flynn.io) whatever is on your mind!

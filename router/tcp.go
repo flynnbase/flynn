@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/kavu/go_reuseport"
-	"github.com/flynn/flynn/discoverd/client"
-	"github.com/flynn/flynn/router/types"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/kavu/go_reuseport"
+	"github.com/flynnbase/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/router/types"
 )
 
 func NewTCPListener(ip string, startPort, endPort int, ds DataStore, dc DiscoverdClient) *TCPListener {

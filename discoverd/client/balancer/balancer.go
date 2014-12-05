@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
-	"github.com/flynn/flynn/discoverd/client"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/wadey/cryptorand"
+	"github.com/flynnbase/flynn/discoverd/client"
 )
 
 var ErrNoServices = errors.New("balancer: no services found")

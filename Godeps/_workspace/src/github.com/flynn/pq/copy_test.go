@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
 )
 
 func TestCopyInStmt(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/boltdb/bolt"
 )
 
 // Export exports the entire database as a JSON document.

@@ -3,8 +3,8 @@ package pq
 import (
 	"encoding/binary"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq/oid"
 )
 
 type fastpathArg []byte

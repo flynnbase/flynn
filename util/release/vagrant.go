@@ -6,7 +6,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
 )
 
 func vagrant(args *docopt.Args) {

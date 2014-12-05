@@ -2,7 +2,7 @@ package s3_test
 
 import (
 	"encoding/xml"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/cupcake/goamz/s3"
 	"io"
 	"io/ioutil"
 	. "launchpad.net/gocheck"

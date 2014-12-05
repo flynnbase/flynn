@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
-	"github.com/flynn/flynn/pkg/random"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/ActiveState/tail"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/natefinch/lumberjack"
+	"github.com/flynnbase/flynn/pkg/random"
 )
 
 type Data struct {

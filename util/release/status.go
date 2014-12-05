@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-docopt"
 )
 
 type Status struct {
@@ -17,7 +17,7 @@ type Status struct {
 
 func status(args *docopt.Args) {
 	commit := args.String["<commit>"]
-	res, err := http.Get(fmt.Sprintf("https://api.github.com/repos/flynn/flynn/commits/%s/status", commit))
+	res, err := http.Get(fmt.Sprintf("https://api.github.com/repos/flynnbase/flynn/commits/%s/status", commit))
 	if err != nil {
 		log.Fatal("error getting status from Github:", err)
 	}

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/host/types"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/host/types"
 )
 
 func FormatEnv(envs ...map[string]string) []string {

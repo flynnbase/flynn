@@ -10,7 +10,7 @@ import (
 	"strings"
 	"syscall"
 
-	cfg "github.com/flynn/flynn/cli/config"
+	cfg "github.com/flynnbase/flynn/cli/config"
 )
 
 const gitURLSuf = ".git"

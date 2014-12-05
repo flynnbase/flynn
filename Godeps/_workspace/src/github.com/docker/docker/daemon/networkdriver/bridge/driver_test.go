@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portmapper"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/docker/docker/daemon/networkdriver/portmapper"
 	"github.com/docker/docker/engine"
 )
 

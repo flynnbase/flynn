@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/flynn/pq/hstore"
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/pkg/sse"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/go-sql"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/flynn/pq/hstore"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/go-martini/martini"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/pkg/sse"
 )
 
 type formationKey struct {

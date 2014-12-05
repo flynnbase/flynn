@@ -3,10 +3,10 @@ package bootstrap
 import (
 	"errors"
 
-	ct "github.com/flynn/flynn/controller/types"
-	"github.com/flynn/flynn/controller/utils"
-	"github.com/flynn/flynn/pkg/random"
-	"github.com/flynn/flynn/pkg/resource"
+	ct "github.com/flynnbase/flynn/controller/types"
+	"github.com/flynnbase/flynn/controller/utils"
+	"github.com/flynnbase/flynn/pkg/random"
+	"github.com/flynnbase/flynn/pkg/resource"
 )
 
 type RunAppAction struct {

@@ -1,6 +1,6 @@
 package bootstrap
 
-import "github.com/flynn/flynn/pkg/random"
+import "github.com/flynnbase/flynn/pkg/random"
 
 type GenRandomAction struct {
 	ID     string `json:"id"`
