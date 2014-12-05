@@ -16,7 +16,7 @@ install:
   - go install -race std
   - go get golang.org/x/tools/cmd/cover
 
-  - go install github.com/flynn/flynn/discoverd
+  - go install github.com/flynnbase/flynn/discoverd
 
   - wget https://github.com/coreos/etcd/releases/download/v0.4.6/etcd-v0.4.6-linux-amd64.tar.gz
   - tar xzf etcd-v0.4.6-linux-amd64.tar.gz
