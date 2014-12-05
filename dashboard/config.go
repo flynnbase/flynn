@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/flynn/flynn/Godeps/_workspace/src/github.com/gorilla/sessions"
+	"github.com/flynnbase/flynn/Godeps/_workspace/src/github.com/gorilla/sessions"
 )
 
 type Config struct {
