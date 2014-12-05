@@ -37,8 +37,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     grep '^export PGHOST' ~/.bashrc || echo export PGHOST=/var/run/postgresql >> ~/.bashrc
 
     mkdir -p ~/go/src/github.com/flynn
-    ln -s /vagrant ~/go/src/github.com/flynnbase/flynn
-    grep ^cd ~/.bashrc || echo cd ~/go/src/github.com/flynnbase/flynn >> ~/.bashrc
+    ln -s /vagrant ~/go/src/github.com/flynn/flynn
+    grep ^cd ~/.bashrc || echo cd ~/go/src/github.com/flynn/flynn >> ~/.bashrc
 SCRIPT
 
   if File.exists?("script/custom-vagrant")

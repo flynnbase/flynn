@@ -190,7 +190,7 @@ cat > ~/.flynnrc
 git config --global user.email "ci@flynn.io"
 git config --global user.name "CI"
 
-cd ~/go/src/github.com/flynnbase/flynn/test
+cd ~/go/src/github.com/flynn/flynn/test
 
 cmd="bin/flynn-test \
   --flynnrc $HOME/.flynnrc \

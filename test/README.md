@@ -28,7 +28,7 @@ Run the `flynn cluster add` command from the bootstrap output to add the cluster
 
 ```text
 flynn cluster add ...
-cd ~/go/src/github.com/flynnbase/flynn/test
+cd ~/go/src/github.com/flynn/flynn/test
 bin/flynn-test --flynnrc ~/.flynnrc --cli `pwd`/../cli/cli
 ```
 
